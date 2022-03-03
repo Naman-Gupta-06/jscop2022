@@ -1,0 +1,43 @@
+img.dots {
+    height: 50vh;
+    width: 20vw;
+    position: relative;
+    left: 0;
+    top: 6vh;
+    z-index: -1;
+}
+
+@media (max-width: 992px)
+{img.dots {
+    width: 34vw;
+    top: 0;
+}
+}
+@media (max-width: 992px)
+{img.dots {
+    width: 34vw;
+    top: 0;
+}}
+
+@media (max-width: 992px)
+{.about__content {
+    text-align: center;
+    top: -45vh;
+}}
+
+.about__content {
+    margin-top: 1vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -40vh;
+}
+
+#about {
+    font-weight: 700;
+    font-size: 6vh;
+    font-style: italic;
+    padding: 3.5vh;
+    font-family: NeueMontreal-Italic;
+}

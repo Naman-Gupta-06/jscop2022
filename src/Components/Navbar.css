@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 5px;
+    color: #F5F9FC;
+    /* text-shadow: 2px 2px 60px var(--accent-primary-default); */
+    background-color:transparent;
+    /* border: 1px solid #1C2333; */
+    padding: 20px;
+    position:fixed;
+  }
+  
+  .navbar__left{
+    flex: 0.3;
+  }
+  
+  .navbar__right{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around; */
+    flex:0.7;
+    white-space: nowrap;
+    align-items: center;
+}
+.navbar__right h3{
+
+    padding: 3px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+
+  }
+
+.logo{
+      height: 55px;
+      padding-left: 20px;
+      
+}

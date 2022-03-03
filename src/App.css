@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --accent-primary-default: #0079F2;
+  --background-root: #0E1525;
+  --white:#FCFCFC;
+}
+
+a:active{
+  text-shadow: 2px 2px 10px var(--accent-primary-default);
+}
