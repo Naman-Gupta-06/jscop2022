@@ -10,13 +10,13 @@ function Navbar() {
         <img src={landingi} alt="Optica logo" className="logo" />
       </div>
       <div className="navbar__right">
-        <h3>About</h3>
-        <h3>Timeline</h3>
-        <h3>Events</h3>
-        <h3>Contact</h3>
-        <h3>speakers</h3>
-        <h3>sponsors</h3>
-        <h3>Our Team</h3>
+        <h3> <a href="#about">About</a> </h3>
+        <h3> <a href="#timeline">Timeline</a> </h3>
+        <h3> <a href="#events">Events</a> </h3>
+        <h3> <a href="#contact-us">Contact</a> </h3>
+        <h3> <a href="#speaker">speakers</a> </h3>
+        <h3> <a href="#sponsor">sponsors</a> </h3>
+        <h3> <a href="#team">Our Team</a> </h3>
       </div>
     </div>
   );

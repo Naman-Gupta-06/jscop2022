@@ -2,11 +2,6 @@
     align-items: center;
     margin: auto;
   }
-  .buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   /* .buttons > input[type="button"]:checked ~ .accordianA .buttons > input[type="buttons"]:checked ~ .carousel__prev > label, .carousel > input[type="radio"]:checked ~ .carousel__next > label {
     opacity: 0;
   }
@@ -16,14 +11,32 @@
   .buttons>[input="button"]:nth-child(2):checked ~ .accordianB .item .title{
     opacity: 1;
   } */
+  .plus{
+    font-size: 20px;
+  }
+  .faq__left{
+    flex:0.4;
+    padding:10px;
+    width:30%;
+    height:60vh;
+    justify-content: center ;
+    align-items: center;
+  }
+  .faq__right{
+    flex:0.6;
+    padding:15px;
+    width:70%;
+    justify-content: center ;
+    align-items: center;
+  }
   .wrapper{
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vh;
+    
+    
+    /* width: 100vh; */
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .accordianA{
     width: 90%;
@@ -31,7 +44,17 @@
   .item{
     background: white;
     margin-bottom: 1%;
+    padding: 15px;
     
+  }
+  .faq{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin: 10px;flex-wrap: wrap;
   }
   
   .title{
@@ -50,10 +73,12 @@
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
     border-bottom: 2px solid rgb(177, 175, 175);
+    padding:4px;
   }
   
   .content.show{
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
+    margin:15px 0 15px 0;
   }

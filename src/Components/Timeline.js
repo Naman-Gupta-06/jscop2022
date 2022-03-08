@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
-import StarIcon from '@mui/icons-material/Star';
+// import StarIcon from '@mui/icons-material/Star';
 
 function Timeline() {
   return (

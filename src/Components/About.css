@@ -32,6 +32,7 @@ img.dots {
     margin-right: auto;
     position: relative;
     top: -40vh;
+    display: flex;
 }
 
 #about {
@@ -40,4 +41,50 @@ img.dots {
     font-style: italic;
     padding: 3.5vh;
     font-family: NeueMontreal-Italic;
+}
+@media (max-width: 992px)
+{#cont {
+    font-size: 1.2rem;
+}}
+#cont, #logo {
+    padding: 3.5vh;
+    font-size: 1.5vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    font-family: NeueMontreal-Regular;
+}
+
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.MuiTypography-root {
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-family: "Neue Montreal";
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+@media (max-width: 992px)
+{.content1 {
+    text-align: center;
+    top: -45vh;
+}}
+.content__left{
+    flex:0.6;
+}
+.content__right{
+    flex: 0.4;
+    margin:20px;
 }
